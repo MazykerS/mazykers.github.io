@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>JARVIS Privacy Policy</title>
+<style>
+  body { font: 16px/1.6 system-ui, -apple-system, "Segoe UI", sans-serif; max-width: 720px; margin: 40px auto; padding: 0 16px; color: #1d1d1f; background: #fff; }
+  h1 { font-size: 28px; }
+  h2 { font-size: 20px; margin-top: 28px; }
+  .muted { color: #6e6e73; }
+  a { color: #0b57d0; }
+</style>
+</head>
+<body>
+<h1>JARVIS — Privacy Policy</h1>
+<p class="muted">Last updated: 13 November 2026</p>
+
+<h2>1. Who uses this app</h2>
+<p>JARVIS is a private, self-hosted personal assistant. It is used by exactly one person: the owner of the YouTube channel
+<a href="https://www.youtube.com/@mazyker">@mazyker</a>, who is also the operator of the app. It is not offered to the public, and nobody else can sign in.</p>
+
+<h2>2. What data is accessed</h2>
+<p>With the owner's explicit consent through Google OAuth, the app reads data about the owner's own YouTube channel:</p>
+<ul>
+  <li>channel information and the list of the channel's own videos (titles, publish dates, durations, privacy status);</li>
+  <li>public counters such as views, likes, comments and subscriber count;</li>
+  <li>YouTube Analytics reports for the channel, such as views, watch time, average view duration, audience retention, subscribers gained or lost.</li>
+</ul>
+<p>Scopes requested: <code>https://www.googleapis.com/auth/youtube.readonly</code> and
+<code>https://www.googleapis.com/auth/yt-analytics.readonly</code>. Both are read-only.</p>
+<p>The app does not upload, edit, delete or publish videos, does not manage comments, and does not access any other Google service or anyone else's data.</p>
+
+<h2>3. How the data is used</h2>
+<p>The data is used only to produce statistics summaries for the owner and to help plan the channel's own content.
+It is not used for advertising, is not sold, and is not used to train AI models.</p>
+
+<h2>4. Storage and security</h2>
+<p>Data and the OAuth token are stored only on the owner's private server. The token is readable only by a dedicated system account,
+and access to the server is restricted to its administrator. Daily statistics snapshots are kept so that the owner can compare periods.</p>
+
+<h2>5. Sharing</h2>
+<p>The data is not shared with third parties. A text summary of the statistics may be processed by the AI model the owner uses for his own assistant,
+under that provider's terms, and only to answer the owner's own questions.</p>
+
+<h2>6. Retention and deletion</h2>
+<p>The owner can revoke access at any time at <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>.
+After access is revoked, the token stops working and stored snapshots can be deleted from the server at the owner's request.</p>
+
+<h2>7. Google API Services User Data Policy</h2>
+<p>The app's use of information received from Google APIs adheres to the
+<a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>,
+including the Limited Use requirements.</p>
+
+<h2>8. Contact</h2>
+<p>Questions about this policy: contact the channel owner through <a href="https://www.youtube.com/@mazyker">youtube.com/@mazyker</a>.</p>
+
+<hr>
+<h2 lang="ru">Кратко по-русски</h2>
+<p lang="ru">JARVIS — личное приложение одного владельца канала @mazyker. Оно только читает статистику собственного канала
+(скоупы youtube.readonly и yt-analytics.readonly), ничего не публикует и не меняет. Данные хранятся на личном сервере владельца
+и третьим лицам не передаются. Отозвать доступ можно на myaccount.google.com/permissions.</p>
+</body>
+</html>
